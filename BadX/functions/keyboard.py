@@ -83,11 +83,11 @@ sudo_keyboard = ReplyKeyboardMarkup(
 restriction_keyboard = ReplyKeyboardMarkup(
     [
         [
-            KeyboardButton("🔸 Get All Restricted Chats 🔸")
+            KeyboardButton("🔸 ɢᴇᴛ ᴀʟʟ ʀᴇsᴛʀɪᴄᴛᴇᴅ ᴄʜᴀᴛs 🔸")
         ],
         [
-            KeyboardButton("➕ Add Chat"),
-            KeyboardButton("Remove Chat ➖")
+            KeyboardButton("➕ ᴀᴅᴅ ᴄʜᴀᴛ"),
+            KeyboardButton("ʀᴇᴍᴏᴠᴇ ᴄʜᴀᴛ ➖")
         ],
         [
             KeyboardButton("🔙")
@@ -114,19 +114,19 @@ def gen_inline_keyboard(collection: list, row: int = 2) -> list[list[InlineKeybo
 help_buttons = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("🔹 Basic", "help:basic"),
-            InlineKeyboardButton("Spam 🔹", "help:spam")
+            InlineKeyboardButton("🔹 ʙᴀsɪᴄ", "help:basic"),
+            InlineKeyboardButton("sᴘᴀᴍ 🔹", "help:spam")
         ],
         [
-            InlineKeyboardButton("🔹 DirectMessage (DM)", "help:direct"),
-            InlineKeyboardButton("Raid 🔹", "help:Raid")
+            InlineKeyboardButton("🔹 ᴅɪʀᴇᴄᴛ ᴍsɢ (ᴅᴍ)", "help:direct"),
+            InlineKeyboardButton("ʀᴀɪᴅ 🔹", "help:Raid")
         ],
         [
-            InlineKeyboardButton("🔹 Profile", "help:profile"),
-            InlineKeyboardButton("Extra 🔹", "help:extra")
+            InlineKeyboardButton("🔹 ᴘʀᴏғɪʟᴇ", "help:profile"),
+            InlineKeyboardButton("ᴇxᴛʀᴀ 🔹", "help:extra")
         ],
         [
-            InlineKeyboardButton("🗑️", "client:close")
+            InlineKeyboardButton("ᴄʟᴏsᴇ", "client:close")
         ]
     ]
 )
@@ -134,7 +134,7 @@ help_buttons = InlineKeyboardMarkup(
 reboot_button = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton("Reboot 🔄", "help:reboot")
+            InlineKeyboardButton("ʀᴇʙᴏᴏᴛ 🔄", "help:reboot")
         ]
     ]
 )
