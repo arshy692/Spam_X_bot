@@ -8,11 +8,11 @@ from pyrogram.types import (
 start_keyboard = ReplyKeyboardMarkup(
     [
         [
-            KeyboardButton("🔹 Manage Clients 🔹")
+            KeyboardButton("🔹 ғᴇᴀᴛᴜʀᴇs 🔹")
         ],
         [
             KeyboardButton(" ʜᴇʟᴘ❓"),
-            KeyboardButton("Other ↗️")
+            KeyboardButton(" ᴏᴛʜᴇʀs ↗️")
         ]
     ],
     placeholder="Please Select",
@@ -22,17 +22,17 @@ start_keyboard = ReplyKeyboardMarkup(
 manage_clients_keyboard = ReplyKeyboardMarkup(
     [
         [
-            KeyboardButton("🔸 Get All Clients 🔸")
+            KeyboardButton("🔸ɢᴇᴛ ᴀʟʟ ᴄʟɪᴇɴᴛs🔸")
         ],
         [
-            KeyboardButton("➕ Add Client"),
-            KeyboardButton("Remove Client ➖")
+            KeyboardButton("➕ ᴀᴅᴅ ᴜsᴇʀ"),
+            KeyboardButton("ʀᴇᴍᴏᴠᴇ ᴜsᴇʀ ➖")
         ],
         [
-            KeyboardButton("🔐 Get Access Of Client")
+            KeyboardButton("🔐 ɢᴇᴛ ᴀᴄᴄᴇss ᴏғ ᴄʟɪᴇɴᴛ")
         ],
         [
-            KeyboardButton("Home 🏠")
+            KeyboardButton("ʜᴏᴍᴇ 🏠")
         ]
     ],
     placeholder="Please Select",
@@ -42,12 +42,12 @@ manage_clients_keyboard = ReplyKeyboardMarkup(
 other_keyboard = ReplyKeyboardMarkup(
     [
         [
-            KeyboardButton("↗️ Join All"),
-            KeyboardButton("Leave All ↙️")
+            KeyboardButton("↗️  ᴊᴏɪɴ ᴀʟʟ ɢʀᴏᴜᴘ "),
+            KeyboardButton("ʟᴇᴀᴠᴇ ᴀʟʟ ɢʀᴏᴜᴘ ↙️")
         ],
         [
-            KeyboardButton("👥 Sudo Users"),
-            KeyboardButton("Active Tasks ℹ️")
+            KeyboardButton("👥 sᴜᴅᴏ ᴜsᴇʀs"),
+            KeyboardButton("ᴀᴄᴛɪᴠᴇ ᴛᴀsᴋs ℹ️")
         ],
         [
             KeyboardButton("🔒 Restrictions")
