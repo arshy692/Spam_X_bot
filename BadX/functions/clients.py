@@ -235,4 +235,4 @@ class BadX(Client):
         await self.restrict.loadRestrictChats()
         await self.startMessage()
 
-TheBadX = SpamX()
+TheBadX = BadX()
