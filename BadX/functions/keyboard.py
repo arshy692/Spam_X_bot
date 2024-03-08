@@ -11,7 +11,7 @@ start_keyboard = ReplyKeyboardMarkup(
             KeyboardButton("🔹 Manage Clients 🔹")
         ],
         [
-            KeyboardButton("❓Help"),
+            KeyboardButton(" ʜᴇʟᴘ❓"),
             KeyboardButton("Other ↗️")
         ]
     ],
