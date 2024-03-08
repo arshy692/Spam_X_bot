@@ -25,8 +25,8 @@ manage_clients_keyboard = ReplyKeyboardMarkup(
             KeyboardButton("🔸ɢᴇᴛ ᴀʟʟ ᴄʟɪᴇɴᴛs🔸")
         ],
         [
-            KeyboardButton("➕ ᴀᴅᴅ ᴜsᴇʀ"),
-            KeyboardButton("ʀᴇᴍᴏᴠᴇ ᴜsᴇʀ ➖")
+            KeyboardButton("➕ ᴀᴅᴅ ᴜsᴇʀs"),
+            KeyboardButton("ʀᴇᴍᴏᴠᴇ ᴜsᴇʀs ➖")
         ],
         [
             KeyboardButton("🔐 ɢᴇᴛ ᴀᴄᴄᴇss ᴏғ ᴄʟɪᴇɴᴛ")
@@ -50,10 +50,10 @@ other_keyboard = ReplyKeyboardMarkup(
             KeyboardButton("ᴀᴄᴛɪᴠᴇ ᴛᴀsᴋs ℹ️")
         ],
         [
-            KeyboardButton("🔒 Restrictions")
+            KeyboardButton("🔒 ʀᴇsᴛʀɪᴄᴛɪᴏɴs")
         ],
         [
-            KeyboardButton("Home 🏠")
+            KeyboardButton("ʜᴏᴍᴇ 🏠")
         ]
     ],
     placeholder="Please Select",
@@ -63,14 +63,14 @@ other_keyboard = ReplyKeyboardMarkup(
 sudo_keyboard = ReplyKeyboardMarkup(
     [
         [
-            KeyboardButton("🔸 Get All Sudos 🔸")
+            KeyboardButton("🔸 ɢᴇᴛ ᴀʟʟ sᴜᴅᴏs🔸")
         ],
         [
-            KeyboardButton("➕ Add Sudo"),
-            KeyboardButton("Remove Sudo ➖")
+            KeyboardButton("➕ ᴀᴅᴅ sᴜᴅᴏ"),
+            KeyboardButton("ʀᴇᴍᴏᴠᴇ sᴜᴅᴏ➖")
         ],
         [
-            KeyboardButton("Remove All ☑️")
+            KeyboardButton("ʀᴇᴍᴏᴠᴇ ᴀʟʟ sᴜᴅᴏ ☑️")
         ],
         [
             KeyboardButton("🔙")
