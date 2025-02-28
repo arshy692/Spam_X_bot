@@ -18,8 +18,8 @@ version = {
     "python": python_version(),
 }
 
-UpdateChannel = "HEROKUBIN_01"
-SupportGroup = "ll_THE_BAD_BOT_ll"
+UpdateChannel = "Deepvoyage"
+SupportGroup = "Deepvoyage"
 
 activeTasks: dict = {}
 dataBase = dataBase
